@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Activity -->
+    <dimen name="app_padding">16dp</dimen>
+
+    <!-- Main Activity: App Name -->
+    <dimen name="app_title_padding">10dp</dimen>
+    <dimen name="app_title_margin">20dp</dimen>
+    <dimen name="app_title_text_size">28sp</dimen>
+
+    <!-- Error Activity -->
+    <dimen name="error_padding">16dp</dimen>
+
+    <!-- Error Activity: App Name -->
+    <dimen name="error_title_padding">10dp</dimen>
+    <dimen name="error_title_text_size">32sp</dimen>
+
+    <!-- Error Activity: Error Message -->
+    <dimen name="error_msg_margin">10dp</dimen>
+    <dimen name="error_msg_text_size">24sp</dimen>
+</resources>

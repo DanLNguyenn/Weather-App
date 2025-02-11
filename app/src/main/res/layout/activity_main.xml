@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idMain"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/app_padding"
+    tools:context=".MainActivity">
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/idWelcomeMsgAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/idWeatherFragment"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/app_title_margin"
+        android:gravity="center"
+        android:padding="@dimen/app_title_padding"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/wpi_red"
+        android:textSize="@dimen/app_title_text_size"
+        android:textStyle="bold|italic" />
+
+    <!-- Weather Fragment -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/idWeatherFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.fragment.app.FragmentContainerView>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Weather Background Colors -->
+    <!-- Weather Background Colors with increased opacity -->
+    <color name="clear_day">#FFFFB300</color> <!-- Opaque sunny color -->
+    <color name="clear_night">#FF121735</color> <!-- Opaque clear night color -->
+    <color name="rain">#FF3C424C</color> <!-- Opaque rain color -->
+    <color name="snow">#FFEDEFF3</color> <!-- Opaque snow color -->
+    <color name="sleet">#FFB8B8B8</color> <!-- Opaque sleet color -->
+    <color name="fog">#FFD3D2D3</color> <!-- Opaque fog color -->
+    <color name="cloudy">#FFC9CACA</color> <!-- Opaque cloudy color -->
+    <color name="partly_cloudy_day">#FFE8F3F7</color> <!-- Opaque partly cloudy day color -->
+    <color name="partly_cloudy_night">#FF7F706C</color> <!-- Opaque partly cloudy night color -->
+
+    <!-- Our own colors -->
+    <color name="blue">#0D6EFD</color>
+    <color name="indigo">#6610F2</color>
+    <color name="purple">#6F42C1</color>
+    <color name="pink">#D63384</color>
+    <color name="red">#DC3545</color>
+    <color name="orange">#FD7E14</color>
+    <color name="yellow">#FFC107</color>
+    <color name="green">#198754</color>
+    <color name="teal">#29C997</color>
+    <color name="cyan">#0DCAF0</color>
+    <color name="gray">#ADB5BD</color>
+
+    <color name="wpi_red">#AC2B37</color>
+    <color name="wpi_gray">#A9B0B7</color>
+
+    <color name="light_background">#FFF5F5F5</color>
+    <color name="divider_color">#FFDDDDDD</color>
+</resources>

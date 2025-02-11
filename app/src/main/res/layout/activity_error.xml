@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idError"
+    android:background="@color/wpi_red"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/error_padding"
+    android:orientation="vertical">
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/idErrorMsgAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/idErrorMsg"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="@dimen/error_title_padding"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/error_title_text_size"
+        android:textStyle="bold|italic" />
+
+    <!-- Error Message -->
+    <TextView
+        android:id="@+id/idErrorMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/error_msg_margin"
+        android:gravity="start"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="@dimen/error_msg_text_size" />
+
+</RelativeLayout>
